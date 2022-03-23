@@ -31,9 +31,9 @@ export default function Home({allPostsData}) {
           <a href="https://nextjs.org/"> Next.js</a> for the first time
         </p>
         <p>
-          • I actually use my{' '}
+          • I mainly use my{' '}
           <a href="https://www.alexdphan.com/"> personal website</a> where I
-          share my writings, learnings, and my current status
+          share my writings, learnings, and current status
         </p>
         <p>
           • My Twitter is{' '}
@@ -42,7 +42,7 @@ export default function Home({allPostsData}) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>What if you clicked this ahaha...</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
